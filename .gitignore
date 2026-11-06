@@ -1,0 +1,16 @@
+# Carpeta local de providers
+.terraform/
+
+# Estado local (en HCP Terraform el estado vive en la nube)
+*.tfstate
+*.tfstate.*
+
+# Variables con secretos (token y account id) - NUNCA subir
+*.tfvars
+*.tfvars.json
+
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
